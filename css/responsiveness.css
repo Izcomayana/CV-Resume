@@ -1,0 +1,34 @@
+@media (max-width: 1000px) {
+  header {
+    flex-direction: column;
+  }
+
+  .main-container {
+    padding: 1rem 3rem;
+  }
+
+  .aboutBio-container {
+    flex-direction: column;
+  }
+
+  .about-container {
+    margin: 2rem auto;
+  }
+
+  .bio-container {
+    margin: 2rem auto;
+  }
+
+  .skillExp-container {
+    flex-direction: column;
+    margin: 0 !important;
+  }
+
+  .skills-container {
+    margin: 2rem auto;
+  }
+
+  .experience-container {
+    margin: 2rem auto;
+  }
+}
