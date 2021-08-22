@@ -10,7 +10,6 @@
 }
 
 header {
-  /* border: 2px solid white; */
   display: flex;
   text-align: center;
 }
@@ -23,19 +22,15 @@ header {
   box-shadow: 0 0 10px 2px rgb(51 51 51 / 10%);
   border-radius: 50%;
   margin: 2rem;
-  margin-left: 5rem;
 }
 
 h1 {
   font-size: 50px;
   margin: 2rem 0;
-  margin-top: 3rem;
 }
 
 .header-para {
-  /* border: 2px solid red; */
   padding-top: 2rem;
-  margin-left: 4.5rem;
 }
 
 li {
@@ -66,18 +61,15 @@ ul {
 }
 
 .main-container {
-  /* border: 2px solid white; */
   padding: 1rem 6rem;
 }
 
 .aboutBio-container {
-  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
 }
 
 .about-container {
-  /* border: 2px solid rgb(229, 255, 0); */
   background-color: rgb(235, 235, 235);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 2rem;
@@ -95,7 +87,6 @@ p {
 }
 
 .bio-container {
-  /* border: 2px solid rgb(30, 255, 0); */
   background-color: rgb(235, 235, 235);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 2rem;
@@ -104,14 +95,12 @@ p {
 }
 
 .skillExp-container {
-  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   margin: 4rem 0;
 }
 
 .skills-container {
-  /* border: 2px solid rgb(0, 255, 221); */
   background-color: rgb(235, 235, 235);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 2rem;
@@ -120,7 +109,6 @@ p {
 }
 
 .experience-container {
-  /* border: 2px solid rgb(255, 0, 21); */
   background-color: rgb(235, 235, 235);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 2rem;

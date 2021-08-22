@@ -12,23 +12,93 @@
   }
 
   .about-container {
+    text-align: center;
     margin: 2rem auto;
+    width: 80% !important;
   }
 
   .bio-container {
+    text-align: center;
     margin: 2rem auto;
+    width: 80% !important;
   }
 
   .skillExp-container {
     flex-direction: column;
-    margin: 0 !important;
   }
 
   .skills-container {
+    text-align: center;
     margin: 2rem auto;
+    width: 80% !important;
   }
 
   .experience-container {
+    text-align: center;
     margin: 2rem auto;
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .my-img {
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+
+  .header-para {
+    padding-top: 0 !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  .main-container {
+    padding: 0 !important;
+  }
+
+  .aboutBio-container {
+    margin-left: 0 !important;
+  }
+
+  .skillExp-container {
+    margin: 0 !important;
+  }
+
+  .hng-logo {
+    width: 70%;
+  }
+}
+
+@media (max-width: 300px) {
+  .my-img {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+
+  h1 {
+    margin: 1rem !important;
+    font-size: 1.5rem !important;
+  }
+
+  .about-container {
+    width: 60% !important;
+  }
+
+  h2 {
+    font-size: 1rem !important;
+  }
+
+  .bio-container {
+    width: 60% !important;
+  }
+
+  .skills-container {
+    width: 60% !important;
+  }
+
+  .experience-container {
+    width: 60% !important;
   }
 }
